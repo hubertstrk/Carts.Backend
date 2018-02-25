@@ -1,0 +1,26 @@
+{
+  "name": "carts.backend",
+  "version": "1.0.0",
+  "author": "hubert.staerk@gmail.com",
+  "description": "Express JS backend for Carts",
+  "contributors": [
+    {
+      "name": "Microsoft",
+      "email": "appgal@microsoft.com"
+    }
+  ],
+  "main": "./server.js",
+  "dependencies": {
+    "azure-cli": "^0.10.13",
+    "express": "~3.1.0",
+    "jade": "*",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "uuid": "^3.0.1"
+  },
+  "noAnalyze": true,
+  "license": "Apache-2.0",
+  "engines": {
+    "node": "~0.10.0 || ~4.2.0"
+  }
+}
